@@ -1,0 +1,71 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.c-links{
+    padding: 10px;
+    display: inline;
+    float: right;
+}
+#limgs{
+    padding-right: 10px;
+}
+.c-links > a{
+    text-decoration: none;
+    color: gray;
+}
+.c-links>a:hover{
+    text-decoration:underline
+}
+
+.container{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    height: 80vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.search-bar,.sub-button{
+    border: black solid 0.5px;
+    border-radius: 25px;
+    margin-top: 4px;
+    padding: 4px;
+}
+.sub-button:hover{
+    border-color: lightgray;
+}
+.search-bar:focus,.search-bar:hover,.input input[type="text"]:focus,.input input[type="text"]:hover{
+    background-color: lightgray;
+}
+
+.input{
+    box-sizing: border-box;
+    display: flex;
+    width: 34.6%;
+    flex-direction: column;
+    height: 100vh;
+    padding-top: 40px;
+    padding-left: 20px;
+}   
+.input input[type="text"]{
+    margin: 10px 10px 10px 0px;
+    padding: 4px;
+    width:554px;
+    height: 25px;
+    align-self:flex-start;
+    border: black solid 1.5px;
+}
+.input input[type="submit"]{
+    align-self: flex-end;       
+    background-color:#8ab4f8;
+    color: white;
+    border: 1.5px solid black ;
+    padding: 4px;
+    margin-top: 10px;
+}
+.input input[type="submit"]:hover{
+    border-color: #8aaff8;
+    background-color:#8aaff8;
+}
