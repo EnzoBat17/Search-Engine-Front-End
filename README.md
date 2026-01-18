@@ -1,1 +1,1 @@
-This project is a basic HTML and CSS study that simulates a search engine interface. It consists of 3 HTML pages (Search, Image Search, Advanced Search)that collect user input and redirect the user to a actual Google Search using the input given. 
+This project is a basic HTML and CSS study that simulates a search engine interface. It consists of 3 HTML pages (Search, Image Search, Advanced Search)that collect user input and redirect the user to an actual Google Search using the input given. 
